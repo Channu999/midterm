@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".weather">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Hello Montreal"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="24dp" />
+
+    <TextView
+        android:id="@+id/edt_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Todays weather is"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:layout_constraintTop_toBottomOf="@+id/edt_email"
+        tools:layout_editor_absoluteX="16dp" />
+
+
+
+
+
+</FrameLayout>
